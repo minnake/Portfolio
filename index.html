@@ -1,0 +1,269 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Martel+Sans&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f72ab404b8.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+
+    <title>Minna Keinonen - Portfoliosivu</title>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-light fixed-top navbar-expand-md navbar-right">
+        <div class="container-fluid">
+            <img src="img/logoMK.png" alt="logo" id="logo" class="img-responsive">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link scroll-link" href="#alku">Alku</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll-link" href="#osaaminen">Osaaminen</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link scroll-link" href="#yhteys">Yhteydenotto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Jumbotron -->
+    <div class="jumbotron" id="alku">
+        <div class="jumboContainer">
+            <div class="d-flex justify-content-center">
+                <div class="row text-center">
+                    <div class="col-lg-4">
+                        <div class="card" id="jumboCard">
+                            <img class="card-img-top img-circle rounded-circle" src="img/MinnaK.JPG"
+                                alt="Card image cap" id="avatar">
+                            <div class="card-block">
+                                <h2>Minna Keinonen</h2>
+                                <p>äiti, koodaaja, utelias visualisti</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="jumboBtn" data-hover="Ansioluettelo >>" onclick="window.open('CV2020.pdf'); return true;">
+                <div><i class="far fa-file-pdf"></i> Curriculum Vitae</div>
+            </button>
+
+            <button class="jumboBtn" data-hover="LinkedIn profiili >>"
+                onclick="window.open('https://www.linkedin.com/in/keinonen-minna/');">
+                <div><i class="fab fa-linkedin-in"></i> LinkedIn</div>
+            </button>
+
+            <button class="jumboBtn" data-hover="Tutustu koodeihin >>"
+                onclick="window.open('https://github.com/minnake');">
+                <div><i class="fab fa-github"></i> Github</div>
+            </button>
+        </div>
+    </div>
+
+
+    <!-- Portfolio -->
+    <div class="container" id="portfolio">
+        <div class="textArea">
+            <h2>Portfolio</h2>
+
+            <div class="card-deck">
+                <div class="card mb-4">
+                    <img class="card-img-top portfolioImg" src="img/udacityCard.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Android Basic Nanodegree</h5>
+                        <p class="card-text">Udacityn ja Googlen tarjoama verkkokoulutus. Lähdin rohkeasti mukaan,
+                            vaikka minulla oli vain muutama Java MOOC-kurssin tehtävää tehtynä ja halusin nähdä, onko
+                            koodaaminen minun juttuni.
+                        </p>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Sertifikaatti</li>
+                            <li class="list-group-item">Github</li>
+                            <li class="list-group-item">Udacity</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card mb-4">
+                    <img class="card-img-top portfolioImg" src="img/udemyCard.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">The complete web developer course 2.0</h5>
+                        <p class="card-text">Halusin lisää koodausosaamista ja päätin kokeille Udemyn verkkokurssia.
+                            Tässä muutama kurssilla tehtyä verkkosovellusta.
+                        </p>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Reaktiopeli</li>
+                            <li class="list-group-item">Päiväkirja verkkosovellus</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card mb-4">
+                    <img class="card-img-top img-fluid" src="img/codeCard.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">Muita koodauksia</h4>
+                        <p class="card-text">Omia harjoituksia ja opiskelijatöitä, joita olen tehnyt kartuttaakseni
+                            osaamistani ja
+                            pitääkseni yllä koodaustaitojani.
+                        </p>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Lempi Spa</li>
+                            <li class="list-group-item">Portfolion github</li>
+                            <li class="list-group-item"></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="card mb-4">
+                    <img class="card-img-top img-fluid" src="img/creativityCard.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title">Muita töitä</h4>
+                        <p class="card-text">Minulta löytyy myös muutakin osaamista. </p>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Vimeo</li>
+                            <li class="list-group-item">NaisBodin logon animaatio</li>
+                            <li class="list-group-item"></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="divider">
+        <div class="img1"></div>
+    </div>
+
+    <!-- Osaaminen -->
+    <div class="container" id="osaaminen">
+        <div class="textArea">
+            <h2>Osaaminen</h2>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti illum impedit aperiam, accusamus neque
+            officia explicabo in voluptate eum omnis quibusdam repellat ipsum. Ab eius excepturi possimus, dolorum natus
+            blanditiis eaque? A reiciendis, nihil obcaecati ea aliquam sit facilis provident perferendis fuga fugiat,
+            itaque alias pariatur dicta laboriosam cupiditate accusamus minima quas! Dolor iste laudantium omnis
+            consequatur cupiditate, placeat hic laborum voluptates unde ut repellat. Hic eligendi fugiat vero quasi
+            maiores, cupiditate impedit distinctio nostrum necessitatibus possimus voluptates illum expedita molestias
+            suscipit amet fugit alias quae officia pariatur atque voluptate. Numquam molestiae, earum perspiciatis
+            libero odio fuga natus. Odio voluptatum pariatur earum quasi beatae. Eveniet harum cum modi? Dolorem ullam
+            corporis quos sequi esse accusantium cupiditate consequatur voluptatibus iure dicta ratione suscipit, labore
+            quam explicabo ab quidem reiciendis magni culpa alias in maiores. Ea cumque, dicta necessitatibus
+            consequatur eos labore quos consectetur ullam ipsum vero itaque ad minima deleniti animi repellat enim
+            fugiat quae. Magnam magni veritatis numquam quia quo? Eveniet, doloremque ipsam! Doloremque et qui debitis
+            atque corrupti, repellendus id dignissimos! Repellat molestiae esse tenetur excepturi debitis ullam odio
+            officiis unde provident, sint nobis enim inventore, alias labore. Debitis laboriosam nam adipisci, at
+            molestias ullam consectetur perferendis in vel veniam ad accusantium odit vitae pariatur libero cumque
+            veritatis culpa iure rerum ducimus? Voluptatibus nobis, rerum iusto eligendi iste maxime mollitia beatae
+            officia magnam, praesentium velit vero perferendis neque, doloribus magni repudiandae facilis similique
+            impedit minima inventore voluptatem dolores accusamus. Eligendi voluptate laboriosam placeat blanditiis
+            natus. Eaque omnis in, inventore illum fuga exercitationem cupiditate alias nobis, consectetur explicabo
+            nesciunt vero sequi doloribus facere veniam aspernatur porro quam quas. Asperiores, obcaecati ad amet nisi,
+            corrupti eos consectetur voluptas quam provident a eum similique, voluptate iusto at autem ipsam quisquam
+            expedita! Maxime temporibus at sed tenetur ullam excepturi officia eligendi sint beatae placeat, ab
+            molestiae exercitationem, accusamus sunt hic reprehenderit possimus nisi magni. Consequuntur incidunt quo
+            voluptatum officiis? Recusandae, ea tenetur reiciendis nisi deleniti, totam sequi earum odit facilis fuga
+            autem nam voluptate possimus, vero blanditiis doloremque velit nemo debitis tempore. Magni ipsam quibusdam
+            consequatur eius voluptatem veritatis totam velit impedit debitis quas nostrum, illum dignissimos officiis
+            provident distinctio saepe expedita nam hic nihil, architecto, possimus nobis accusantium ratione quod! Ex
+            aut expedita ea voluptas mollitia harum, molestias praesentium repudiandae saepe, ut, temporibus quam illo
+            deleniti incidunt minima ab at. Quod, dicta totam doloremque dignissimos quam error eveniet ea architecto et
+            unde molestiae minima! Quis, fuga obcaecati deleniti maiores tempore mollitia, incidunt sapiente est porro
+            labore ex temporibus dicta unde, dolore voluptatem? Quod deserunt atque labore accusamus architecto odio
+            dolorem quia eveniet laudantium velit, ad asperiores fugiat. Libero numquam laborum iste temporibus id
+            dolores assumenda quos culpa deserunt aliquam ullam similique praesentium eos magnam, veniam aperiam maxime,
+            perferendis voluptates cumque, blanditiis dignissimos error. Voluptatem reiciendis amet voluptatibus cum
+            asperiores dignissimos veritatis impedit doloribus? Beatae mollitia quae in laboriosam laborum perferendis
+            tempore blanditiis, dolores quasi excepturi hic tenetur deleniti necessitatibus id modi nobis voluptas
+            quidem nulla non reiciendis. Adipisci placeat et a earum!
+        </div>
+    </div>
+
+    <div class="divider">
+        <div class="img2"></div>
+    </div>
+
+    <!-- Yhteydenotto -->
+    <div class="container" id="yhteys">
+        <div class="textArea">
+            <h2>Yhteydenotto</h2>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum blanditiis non facilis sapiente dignissimos
+            provident voluptates voluptas fugit officiis, illo amet veritatis distinctio, ex corporis perspiciatis
+            maxime recusandae omnis assumenda aliquid, sequi quasi voluptatibus voluptatum. Nisi repudiandae minima
+            labore, voluptate fugiat mollitia corrupti placeat necessitatibus ab cum, eligendi harum autem, ex quisquam
+            accusantium facilis! Fugit non modi, voluptatibus quos voluptas eligendi iste nobis rerum, perferendis
+            voluptate dolores dolore fugiat sunt saepe corporis vero maiores ut tenetur rem facilis laborum earum id,
+            autem voluptatem? Voluptates voluptatem expedita assumenda quisquam nesciunt eius voluptas ab. Error, id
+            iste. Eos blanditiis nihil quibusdam dignissimos quia, rerum incidunt consectetur fugiat necessitatibus
+            assumenda, laborum ut error non tenetur facilis. Sunt perspiciatis inventore mollitia saepe voluptate minus
+            distinctio quae voluptatem eum? Veniam ullam assumenda facere facilis tempora rem at totam reprehenderit
+            nobis saepe possimus, similique expedita voluptatibus harum! Maxime quibusdam nobis explicabo, libero facere
+            iure voluptate molestias quis! Esse ipsa enim quae libero facilis dolores aperiam quisquam sit dolore
+            nesciunt alias quod animi porro cupiditate similique eius, autem fugiat repellendus ex delectus inventore.
+            Commodi totam necessitatibus aut quae animi voluptatem nostrum. Officiis minima neque non labore, aliquam
+            enim exercitationem laudantium deserunt, atque nesciunt eius nostrum quo autem molestiae quos quidem libero
+            ipsum, pariatur sed perferendis provident. Perspiciatis eius quo accusamus officiis cupiditate ullam nostrum
+            quod provident ea harum necessitatibus inventore qui consequuntur laboriosam aliquid est, possimus natus
+            ipsum laudantium et molestias. Pariatur voluptatem adipisci eligendi error! Ipsa porro labore earum ex
+            rerum, deleniti iste veritatis nisi minus a ipsam sit maiores quasi animi voluptate optio tempora! Totam
+            odio optio tenetur deserunt tempora voluptatum exercitationem voluptas cum deleniti alias sed facere porro
+            molestiae similique, accusamus error consequuntur, commodi repellendus. Ipsa, doloribus, saepe, error
+            possimus autem nam eius illo quos eveniet fuga quia. Aliquam quasi iste et blanditiis alias commodi officia,
+            vero animi quia delectus earum totam, aliquid facere dignissimos. Necessitatibus dolorum atque nulla.
+            Assumenda tempora, eveniet magni quae ea ratione inventore quod saepe iste, qui, modi cumque eligendi id.
+            Voluptatibus cum id temporibus natus neque necessitatibus sit explicabo accusamus hic, recusandae, quia
+            excepturi. Vero provident molestias quos? Voluptates aspernatur adipisci voluptate delectus minus, iusto
+            sint tenetur ipsam ducimus maxime. Dolore eaque ad, est dolorum ratione animi omnis. Error amet fuga facere
+            provident dolor, ratione beatae consectetur velit. Quaerat explicabo consequatur harum iusto aliquid fugiat
+            officiis exercitationem modi excepturi nihil. Nemo laborum eos eum enim perspiciatis odit iste ut autem a!
+            Perferendis perspiciatis quaerat nam adipisci quae expedita excepturi, aliquam illo sit ratione dignissimos
+            aliquid doloribus facilis dolor commodi voluptate culpa! Neque illum voluptatem suscipit in? Voluptatum ab
+            asperiores ad fugiat minima impedit iure, eius officiis vel vitae, adipisci corporis eligendi quisquam
+            aperiam illo quaerat autem. Aliquam aliquid maiores maxime sit odit sapiente in vitae quo, culpa, impedit
+            esse consequuntur! Saepe et cupiditate sit totam quod architecto repellat? Numquam natus qui itaque
+            nesciunt, dicta in, est hic ex enim autem ducimus et dolores velit iure ab earum porro sunt aperiam sequi
+            nihil! Doloremque sapiente et fuga ad soluta dolor?
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer" id="footer">
+        <footer class="page-footer font-small">
+            <div class="footer-copyright text-center py-3">© 2020 Copyright: Minna Keinonen
+            </div>
+        </footer>
+    </div>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,88 @@
+@import "jumbotron.css";
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Martel Sans', sans-serif;
+}
+
+.navbar, #footer {
+    background-color: #ebedf0;
+}
+a {
+    text-transform: uppercase;
+    position: relative;
+    color: rgb(84, 97, 88);
+    text-decoration: none;
+}
+
+a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+h2 {
+    font-size: 50px;
+    font-family: 'Capriola', sans-serif;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+#logo {
+    float: left;
+}
+
+.container {
+    padding-top: 70px;
+    margin-top: -70px;
+}
+
+.textArea {
+    margin-bottom: 100px;
+}
+
+.portfolioImg {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+
+.card-title, .card-text {
+    text-align: center;
+}
+
+.card-text {
+    font-size: small;
+}
+
+.footer {
+    height: auto;
+    left: 0;
+    right: 0;
+    margin-top: 50px;
+    height: 200px;
+    line-height: 150px;
+}
+
+.divider {
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 450px;
+}
+
+.img1 {
+    background-image: url("../img/idea.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
+
+.img2 {
+    background-image: url("../img/road.jpeg");
+    background-attachment: fixed;
+    background-size: cover;
+    width: 100%;
+    height: 400px;
+}
